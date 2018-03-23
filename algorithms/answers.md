@@ -34,6 +34,8 @@ secondHighest = array[i]
 }
 }
 
+b) My strategy would be to pick the middle floor of the building and drop an egg. If the egg broke, I would then divide the lower half of the floors and drop an egg from the middle of that floor. If the egg didn't break, I would then divide the upper floors and drop an egg from the middle of that floor. I would continue this process until I found the floor from which it didn't break.
+
 Exercise III
 
 a) If it is already sorted and we start at the first index, then the running time is (O log n). This is the best case scenario for the quick sort algorithm, it will move up the array in order and keep everything where it is. It still has to check to make sure the values that are less than are put to the left of the pivot, so as the size grows it will take only partially longer as the array grows, but not that much.
